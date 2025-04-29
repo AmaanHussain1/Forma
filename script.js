@@ -34,7 +34,7 @@ const aboutTexth1 = document.querySelector(".about-page1-text h1");
 const aboutTextp = document.querySelector(".about-page1-text p");
 
 gsap.from(aboutText, {
-  duration: 1,
+  duration: 0.5,
   delay: 0.2,
   opacity: 0,
   y: -50,
@@ -42,7 +42,7 @@ gsap.from(aboutText, {
 })
 
 gsap.from(aboutTexth1, {
-  duration: 1,
+  duration: 0.8,
   delay: 0.5,
   opacity: 0,
   y: -50,
@@ -50,7 +50,7 @@ gsap.from(aboutTexth1, {
 })
 
 gsap.from(aboutTextp, {
-  duration: 1,
+  duration: 0.8,
   delay: 0.8,
   opacity: 0,
   y: 50,
