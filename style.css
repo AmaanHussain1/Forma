@@ -953,10 +953,10 @@ body {
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
-  border: 2px solid #000;
+  /* border: 2px solid #000; */
   border-radius: 5px;
   padding: 2vw 2vw;
-  background-color: #ffffff36;
+  background-color: #00000036;
   backdrop-filter: blur(2px);
   gap: 2vw;
 }
@@ -967,13 +967,13 @@ body {
   font-weight: 700;
   margin: 0 0 5px 0;
   text-align: left;
-  color: #333333;
+  color: #FFF;
 }
 
 .about-page1-text p{
   font-size: 1.2vw;
   font-weight: 400;
-  color: #020202;
+  color: #e3dede;
   text-align: left;
   line-height: 1;
 }
@@ -1045,18 +1045,9 @@ body {
 
 .contact-left-title h2{
   font-weight: 600;
-  color: #000000;
+  color: #FFF;
   font-size: 2vw;
   margin-bottom: 3vh;
-}
-
-.contact-left-title hr{
-  border: none;
-  width: 10vw;
-  height: 3px;
-  background-color: #000;
-  border-radius: 5px;
-  margin-bottom: 1vw; 
 }
 
 .contact-inputs{
@@ -1498,10 +1489,8 @@ body {
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    border: 2px solid #000;
     border-radius: 5px;
     padding: 2vw 2vw;
-    background-color: #ffffff36;
     backdrop-filter: blur(2px);
     gap: 2vw;
   }
@@ -1512,13 +1501,11 @@ body {
     font-weight: 700;
     margin: 0 0 5px 0;
     text-align: left;
-    color: #333333;
   }
   
   .about-page1-text p{
     font-size: 1.8vw;
     font-weight: 400;
-    color: #020202;
     text-align: left;
     line-height: 1;
   }
@@ -2436,10 +2423,8 @@ body {
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    border: 2px solid #000;
     border-radius: 5px;
     padding: 2vw 2vw;
-    background-color: #ffffff36;
     backdrop-filter: blur(3px);
     gap: 2vw;
   }
@@ -2450,13 +2435,11 @@ body {
     font-weight: 700;
     margin: 0 0 0px 0;
     text-align: left;
-    color: #333333;
   }
   
   .about-page1-text p{
     font-size: 3vw;
     font-weight: 400;
-    color: #020202;
     text-align: left;
     line-height: 1.3;
   }
